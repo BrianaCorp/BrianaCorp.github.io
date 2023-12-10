@@ -1,0 +1,40 @@
+body {
+    background-color: #e4e9dc;
+}
+
+.mainnav {
+    background-color: #4a3324;
+    color:white;
+    border-left:#98e688 15px solid;
+}
+
+.mainnav a, .mainnav a:active, .mainnav a:visited {
+    color:white;
+}
+
+.mainnav a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color:white;
+}
+
+.mainnav .bi {
+    margin-right:5px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+#header {
+    background-color: #98e688;
+}
+
+#headertext {
+    background-color: #204d3e;
+    color: white;
+}
