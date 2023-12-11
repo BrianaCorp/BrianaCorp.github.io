@@ -1,11 +1,11 @@
 body {
-    background-color: #e4e9dc;
+    background-color: #FFFFFC;
 }
 
 .mainnav {
-    background-color: #4a3324;
+    background-color: #221D23;
     color:white;
-    border-left:#98e688 15px solid;
+    border-left:#F29559 15px solid;
 }
 
 .mainnav a, .mainnav a:active, .mainnav a:visited {
@@ -23,10 +23,10 @@ body {
 }
 
 #header {
-    background-color: #98e688;
+    background-color: #F29559;
 }
 
 #headertext {
-    background-color: #204d3e;
+    background-color: #0075A2;
     color: white;
 }
