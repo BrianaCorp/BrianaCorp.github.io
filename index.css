@@ -30,3 +30,8 @@ body {
     background-color: #0075A2;
     color: white;
 }
+
+.main-content {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
