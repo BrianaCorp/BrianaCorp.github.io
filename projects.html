@@ -42,39 +42,144 @@
         </div>
     </nav>
     <div class="container-fluid main-content">
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-md-4">
-                <h1>About Me</h1>
+                <h1>Time Tracker</h1>
                 <hr>
+                <button href="https://github.com/BraxtonWright/TimeTrackerFall23" class="btn btn-dark"><i class="bi bi-github"></i> Github</button>
                 <p class="mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui ut ornare lectus sit. Magna etiam tempor orci eu lobortis. Morbi tincidunt ornare massa eget egestas purus viverra. Duis at consectetur lorem donec massa sapien faucibus et molestie. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Arcu dui vivamus arcu felis bibendum ut. Volutpat commodo sed egestas egestas fringilla phasellus. Id consectetur purus ut faucibus pulvinar elementum integer enim. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur.
+                    A web-based application built with a SEAN stack for tracking time spent on group projects.
+                    Instructors can create and manage courses and projects, oversee student participation in projects, and assign group evaluations to students.
+                    Students can apply to courses, join projects, and track their time spent with a stopwatch or manual timecards.
                 </p>
             </div>
-            <div class="col">
-                <h1>Recent Projects</h1>
-                <hr>
-                <div id="projectCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="col align-self-center">
+                <div id="timeTrackerCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#timeTrackerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#timeTrackerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#timeTrackerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#timeTrackerCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#timeTrackerCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#timeTrackerCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="/images/TimeTracker_Dashboard.png" class="d-block w-100" alt="View profile page">
+                        <img src="/images/TimeTracker_Dashboard.png" class="d-block w-100" alt="">
                       </div>
                       <div class="carousel-item">
-                        <img src="/images/FarmingGame_Home.png" class="d-block w-100" alt="Image of the home page of a farming game.">
+                        <img src="/images/TimeTracker_Project.png" class="d-block w-100" alt="">
                       </div>
                       <div class="carousel-item">
-                        <img src="/images/Author_page.png" class="d-block w-100" alt="Image of the home page of an author website.">
+                        <img src="/images/TimeTracker_Course.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/TimeTracker_Profile.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/TimeTracker_EditCourse.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/TimeTracker_PastCourses.png" class="d-block w-100" alt="">
                       </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#timeTrackerCarousel" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#timeTrackerCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <h1>Farming Game</h1>
+                <hr>
+                <button href="#" class="btn btn-dark"><i class="bi bi-github"></i> Github</button>
+                <p class="mb-3">
+                    A web-based farming game built with Python Django.
+                    After creating an account, users get a small garden plot where they can plant seeds and water their crops, which grow in real time.
+                    Users can then harvest their crops and sell them for points to buy more seeds.
+                </p>
+            </div>
+            <div class="col align-self-center">
+                <div id="farmingGameCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#farmingGameCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#farmingGameCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#farmingGameCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#farmingGameCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#farmingGameCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/images/FarmingGame_Home.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/FarmingGame_Plant.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/FarmingGame_Seeds.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/FarmingGame_Growth.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/FarmingGame_Shop.png" class="d-block w-100" alt="">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#farmingGameCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#farmingGameCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <h1>Author Website</h1>
+                <hr>
+                <button href="https://github.com/BrianaCorp/AuthorWebsite" class="btn btn-dark"><i class="bi bi-github"></i> Github</button>
+                <p class="mb-3">
+                    A mockup website for an author built with Bootstrap.
+                    Made for accessibility and ease-of-use.
+                    Displays featured books on the front page and has links and pages available for series, standalone works, and short fiction.
+                </p>
+            </div>
+            <div class="col align-self-center">
+                <div id="authorSiteCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#authorSiteCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#authorSiteCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#authorSiteCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#authorSiteCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/images/Author_page.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/Author_series.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/Author_shorts.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/Author_footer.png" class="d-block w-100" alt="">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#authorSiteCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#authorSiteCarousel" data-bs-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
