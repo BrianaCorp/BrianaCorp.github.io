@@ -35,3 +35,10 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
+.carousel-title {
+    background-color: #221D23;
+    color: white;
+    border-left: 15px solid #F29559;
+    padding-left: 5px;
+}
